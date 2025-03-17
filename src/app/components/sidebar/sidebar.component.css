@@ -1,0 +1,34 @@
+mat-sidenav {
+  background-color: #00006f !important;
+  width: 100%;
+}
+
+/* Estilos para a lista de navegação dentro do Sidebar */
+mat-nav-list {
+  padding: 0; /* Remove o padding padrão */
+  max-height: calc(100vh - 20px); /* Ajusta a altura para evitar estouro */
+  overflow-y: auto; /* Ativa o scroll somente dentro da lista */
+}
+
+/* Estilos para itens da lista no hover */
+mat-nav-list a.mat-list-item:hover {
+  color: #FFEB3B; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo básico para os itens da lista */
+mat-nav-list a {
+  display: flex;
+  align-items: center; /* Alinha os ícones e textos verticalmente */
+}
+
+/* Estilos para o ícone dentro dos itens da lista */
+mat-icon {
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+/* Estilos responsivos para telas pequenas */
+@media (max-width: 768px) {
+  mat-sidenav {
+    width: 100%; /* Diminui a largura do sidebar em telas pequenas */
+  }
+}

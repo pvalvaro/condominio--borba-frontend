@@ -1,0 +1,10 @@
+.container {
+    height: 100vh;
+    background-color: white;
+}
+  
+mat-sidenav {
+  width: 260px;
+  min-width: 260px; /* Evita que diminua quando a tela reduzir */
+  max-width: 260px;
+}
